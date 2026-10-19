@@ -1,0 +1,18 @@
+{
+  "applinks": {
+    "details": [
+      {
+        "appIDs": ["APPLE_TEAM_ID.com.julesmarques.banco"],
+        "components": [
+          { "/": "/banco-legal/join.html", "comment": "Lien d invitation de ligue (page join.html du repo banco-legal)" },
+          { "/": "/banco-legal/join/*", "comment": "Variante sans .html" },
+          { "/": "/join.html", "comment": "Si join.html est servie a la racine du domaine" },
+          { "/": "/join/*", "comment": "Variante sans .html a la racine" }
+        ]
+      }
+    ]
+  },
+  "webcredentials": {
+    "apps": ["APPLE_TEAM_ID.com.julesmarques.banco"]
+  }
+}
